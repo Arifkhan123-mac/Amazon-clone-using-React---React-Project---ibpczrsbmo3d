@@ -4,7 +4,7 @@ import "./css/Header.css";
 import { Link } from "react-router-dom";
 import {auth} from "../firebase";
 import { onAuthStateChanged,signOut } from "firebase/auth";
-import { async } from "@firebase/util";
+//import { async } from "@firebase/util";
 import { useStateValue } from "../StateProvider";
 
 function Header() {  
